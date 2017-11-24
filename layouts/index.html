@@ -3,7 +3,7 @@
     <div class="grid-sizer"></div> 
     {{ $data := index .Site.Data .Site.Language.Lang }}
     {{ range $e := $data.art }}
-      {{ range $f := $e }}
+      {{ range $f := sort $e "year" "desc" }}
        <figure class="grid-item {{ lower $f.category }}" data-size="{{ $f.fullres }}">
          <a class="grid-link" href="{{ $.Site.BaseURL }}art/full/{{ $f.identifier }}.jpg">
            <img src="{{ $.Site.BaseURL }}art/tb/{{ $f.identifier }}.jpg" alt="{{ $f.title }}">

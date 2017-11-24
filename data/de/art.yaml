@@ -16,7 +16,7 @@ art:
     height: 40
     fullres: "1600x1200"
   - title: ""
-    category: ""
+    category: "Zeichnungen"
     description: ""
     identifier: ""
     year: 
@@ -24,7 +24,7 @@ art:
     height: 
     fullres: ""
   - title: ""
-    category: ""
+    category: "Zeichnungen"
     description: ""
     identifier: ""
     year: 
@@ -32,7 +32,7 @@ art:
     height: 
     fullres: ""
   - title: ""
-    category: ""
+    category: "Kritik"
     description: ""
     identifier: ""
     year: 
