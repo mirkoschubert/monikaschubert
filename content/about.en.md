@@ -2,6 +2,7 @@
 title: "About the Artist"
 date: 2017-11-23T20:22:55+01:00
 draft: false
+image: "about.jpg"
 menu:
   main:
     name: "About"

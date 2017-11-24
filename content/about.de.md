@@ -3,6 +3,7 @@ title: "Über die Künstlerin"
 date: 2017-11-23T20:23:10+01:00
 draft: false
 slug: "ueber"
+image: "about.jpg"
 menu:
   main:
     name: "Über"

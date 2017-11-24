@@ -2,6 +2,7 @@
 title: "Contact"
 date: 2017-11-23T23:50:18+01:00
 draft: false
+image: "contact.jpg"
 menu:
   main:
     name: "Contact"

@@ -2,6 +2,7 @@
 title: "Privacy Notice"
 date: 2017-11-23T23:51:14+01:00
 draft: false
+image: "privacy.jpg"
 menu:
   main:
     name: "Privacy"

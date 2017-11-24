@@ -2,6 +2,7 @@
 title: "Behind the Scenes"
 date: 2017-11-24T13:52:46+01:00
 draft: true
+image: "behind-the-scenes.jpg"
 menu:
   main:
     name: "Behind the Scenes"
