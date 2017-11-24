@@ -1,0 +1,36 @@
+{{ define "main" }}
+  <div class="grid">
+    <div class="grid-sizer"></div> 
+    {{ $data := index .Site.Data .Site.Language.Lang }}
+    {{ range $e := $data.art }}
+      {{ range $f := $e }}
+       <figure class="grid-item {{ lower $f.category }}" data-size="{{ $f.fullres }}">
+         <a class="grid-link" href="{{ $.Site.BaseURL }}art/full/{{ $f.identifier }}.jpg">
+           <img src="{{ $.Site.BaseURL }}art/tb/{{ $f.identifier }}.jpg" alt="{{ $f.title }}">
+         </a>
+         <figcaption>
+           <div class="centered">
+             <h3>{{ $f.title }} ({{ $f.year }})</h3>
+             <p>{{ $f.width }} x {{ $f.height }} cm<br />{{ $f.description }}</p>
+           </div>
+         </figcaption>
+       </figure>
+      {{ end }}
+    {{ end }}
+  </div>
+  <div class="preview">
+    <button class="action action--close">
+      <i class="fa fa-times"></i>
+      <span class="text-hidden">Close</span>
+    </button>
+    <div class="description description--preview"></div>
+  </div>
+{{ end }}
+
+{{ define "bodyclass "}}
+  class="loading"
+{{ end }}
+
+{{ define "scripts" }}
+  {{ partial "global/scripts.html" . }}
+{{ end }}

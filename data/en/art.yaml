@@ -1,0 +1,17 @@
+art:
+  - title: "Near the Sea"
+    category: "Drawings"
+    description: "Pencil & Acrylic on paper"
+    identifier: "2010-01" # /tb/2010-01.jpg or /full/2010-01.jpg
+    year: 2010
+    width: 42
+    height: 58
+    fullres: "1600x1150"
+  - title: "Sheltered"
+    category: "Criticism"
+    description: "Oil on Canvas"
+    identifier: "2010-02"
+    year: 2010
+    width: 30
+    height: 40
+    fullres: "1600x1200"

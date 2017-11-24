@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
+  {{ partial "global/styles.html" . }}
+</head>
+<body{{ block "bodyclass" . }}{{end}}>
+  <div class="site">
+    <header class="site-header">
+      <h3 class="site-title">{{ .Site.Title }}</h3>
+      <p class="site-description">{{ $.Site.Params.description }}</p>
+      <hr />
+      {{ if .IsTranslated }}
+      <p class="site-languages">
+        <a class="active" href="{{ .Permalink }}">{{ .Lang }}</a> | 
+        {{ range .Translations }}
+          <a href="{{ .Permalink }}">{{ .Lang }}</a>
+        {{ end }}
+      </p>
+      {{ end }}
+      <nav class="grid-filter">
+        <ul>
+          <li class="active"><a href="{{ "/" | absLangURL }}" class="all">All Pictures</a></li>
+          <li><a href="#" class="portraits">Portraits</a></li>
+          <li><a href="#" class="reflections">Reflections</a></li>
+          <li><a href="#" class="criticism">Criticism</a></li>
+          <li><a href="#" class="legends">Legends</a></li>
+          <li><a href="#" class="drawings">Drawings</a></li>
+          <li><a href="#" class="sculptures">Sculptures</a></li>
+        </ul>
+      </nav>
+      <nav class="nav-main">
+        {{ $currentPage := . }}
+        <ul>
+        {{ range .Site.Menus.main }}
+          <li{{if $currentPage.IsMenuCurrent "main" . }} class="active"{{end}}><a href="{{ .URL | absLangURL }}">{{ .Name }}</a></li>
+        {{ end }}
+        </ul>
+      </nav>
+    </header>
+    <section class="site-main">
+    {{ block "main" . }}
+      
+    {{ end }}
+    </section>
+  </div>
+  {{ block "scripts" . }}{{ end }}
+</body>
+</html>

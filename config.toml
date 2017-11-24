@@ -1,0 +1,27 @@
+baseURL = "http://monikaschubert.com/"
+
+DefaultContentLanguage = "en"
+
+sectionPagesMenu = "main"
+
+[blackfriday]
+angledQuotes = true
+hrefTargetBlank = true
+
+
+[Languages]
+
+[Languages.en]
+  title = "Monika Schubert"
+  description = "Artist"
+  languageName = "English"
+  languageCode = "en-us"
+  weight = 1
+
+[Languages.de]
+  title = "Monika Schubert"
+  description = "Künstlerin"
+  languageName = "Deutsch"
+  languageCode = "de-de"
+  weight = 2
+
