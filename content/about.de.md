@@ -9,8 +9,6 @@ menu:
     weight: 1
 ---
 
-## Über die Künstlerin
-
 Geboren 1952 in Niesky die deutsche Künstlerin Monika Schubert nach Stationen in Bautzen und Dresden in Luebben (Spreewald) lebt. Sie unterrichtete dort seit 1989 an der Musikschule Dahme Spreewald das Thema Konzertgitarre. Nach einer sechsjährigen Ausbildung am Konservatorium Cottbus übernahm sie die Themen der e-Gitarre und Bass-Gitarre. Mit ihren Schülern begann sie Bandprojekten. Sie beteiligte sich an Wettbewerben und in der Umgebung durchgeführt.
 
 Im Laufe der Zeit wurde ihr Interesse für die Malerei immer stärker und so arbeitete autodidaktisch auf ihre Entwicklung. Es wurden angeboten verschiedene Einzelausstellungen zu ihr, so dass sie in Anzeigen in Luebben, Schoenwalde und Niesky teilgenommen.

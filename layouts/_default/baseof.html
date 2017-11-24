@@ -24,12 +24,14 @@
       <nav class="grid-filter">
         <ul>
           <li class="active"><a href="{{ "/" | absLangURL }}" class="all">All Pictures</a></li>
+          {{ if .Page.IsHome }}
           <li><a href="#" class="portraits">Portraits</a></li>
           <li><a href="#" class="reflections">Reflections</a></li>
           <li><a href="#" class="criticism">Criticism</a></li>
           <li><a href="#" class="legends">Legends</a></li>
           <li><a href="#" class="drawings">Drawings</a></li>
           <li><a href="#" class="sculptures">Sculptures</a></li>
+          {{ end }}
         </ul>
       </nav>
       <nav class="nav-main">

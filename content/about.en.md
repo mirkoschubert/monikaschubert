@@ -8,8 +8,6 @@ menu:
     weight: 1
 ---
 
-## About the Artist
-
 Born in 1952 in Niesky the German artist Monika Schubert lives after stops in Bautzen and Dresden in Luebben (Spreewald). She taught there since 1989 at the music school Dahme Spreewald the subject concert guitar. After a six-year training at the Conservatory Cottbus she took over the subjects of electric guitar and bass guitar as well. With her ​​students she started band projects. They participated in competitions and performed in the area.
 
 Over time her interest for painting grew stronger and so she worked autodidactic on her development. There were offered various solo exhibitions to her, so she participated in displays in Luebben, Schoenwalde and Niesky and more.
