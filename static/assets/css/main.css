@@ -1,3 +1,6 @@
+/**
+* STRUCTURE
+**/
 * {
   box-sizing: border-box;
 }
@@ -83,6 +86,17 @@ body {
   color: #c0392b;
 }
 
+.site-menu-button {
+  display: none;
+  text-align: center;
+  margin: .5em 0;
+}
+
+
+/**
+* TYPOGRAPHY
+**/
+
 h1 {
   font-family: "Alex Brush", Helvetica, sans-serif;
   font-weight: normal;
@@ -97,6 +111,11 @@ a {
 .site-main a:hover {
   border-bottom: #c0392b 1px dotted;
 }
+
+
+/**
+* NAVIGATION
+**/
 
 .grid-filter {
   font-size: 1rem;
@@ -174,6 +193,11 @@ a {
     transform: rotate(360deg);
   }
 }
+
+
+/**
+* IMAGE GRID
+**/
 
 .grid {
   position: relative;
@@ -344,6 +368,11 @@ a {
   max-width: 100%;
 }
 
+
+/**
+* PREVIEW
+**/
+
 .preview {
   position: fixed;
   z-index: 5000;
@@ -484,7 +513,6 @@ a {
 
 
 /* Close button */
-
 .action {
   font-size: 1.5em;
   margin: 0;
@@ -515,11 +543,13 @@ a {
   transform: scale3d(0.6, 0.6, 1);
 }
 
-.preview--image-loaded .action--close {
+.preview--image-loaded .action--close,
+.nav-group--open .action--close {
   opacity: 1;
   -webkit-transform: scale3d(1, 1, 1);
   transform: scale3d(1, 1, 1);
 }
+
 
 .text-hidden {
   position: absolute;
@@ -546,8 +576,9 @@ a {
 }
 
 
-/* Page */
-
+/**
+* PAGES
+**/
 
 .page-img {
   display: block;
@@ -558,6 +589,12 @@ a {
   background-size: cover;
 }
 
+
+/**
+* MEDIA QUERIES
+**/
+
+/* Tablets Landscape & Small Computer Screens */
 @media screen and (max-width: 1200px) {
   .grid-sizer,
   .grid-item {
@@ -565,18 +602,33 @@ a {
   }
 }
 
+/* Tablets Portrait */
 @media screen and (max-width: 800px) {
   .grid-sizer,
   .grid-item {
     width: 100%;
   }
+  .grid-item .centered {
+    position: relative;
+    top: inherit;
+    left: inherit;
+    width: 100%;
+    -webkit-transform: none;
+    transform: none;
+  }
   .grid-item figcaption {
     position: relative;
     opacity: 1;
+    height: auto;
+    padding: 1em 2em;
     background-color: transparent;
+    -webkit-transition: none;
+    transition: none;
   }
   .grid-item figcaption::before {
     display: none;
+    -webkit-transition: none;
+    transition: none;
   }
   .grid-item:hover figcaption::before {
     display: none;
@@ -585,11 +637,78 @@ a {
   .grid-item figcaption h3 {
     opacity: 1;
     color: #323232;
-    font-size: 1.25rem;
+    font-size: 1rem;
+    -webkit-transition: none;
+    transition: none;
+    -webkit-transform: none;
+    transform: none;
+  }
+  .grid-item figcaption h3:hover {
+    color: #c0392b;
   }
   .grid-item figcaption p {
     opacity: 1;
     color: #323232;
     margin-top: 10px;
+  }
+  .grid-item a:hover {
+    border-bottom: 0;
+  }
+}
+
+/* Smartphones */
+@media screen and (max-width: 640px) {
+  
+  .site-header {
+    position: relative;
+    width: 100%;
+    padding: 40px 20px 0;
+  }
+  .site-menu-button {
+    display: block;
+  }
+  .nav-group {
+    display: none;
+    position: fixed;
+    z-index: 5000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #ededed;
+    opacity: 0;
+    -webkit-transition: opacity 0.6s;
+    transition: opacity 0.6s;
+  }
+  .nav-group--open {
+    opacity: 1;
+    -webkit-transition: opacity 0.6s;
+    transition: opacity 0.6s;
+  }
+
+  .site-main {
+    margin: 0;
+    padding: 40px 20px;
+  }
+
+  .grid-item figcaption p {
+    display: block;
+    color: #afafaf;
+  }
+  .loading::before {
+    padding: 0;
+  }
+  .loading::after {
+    left: 50%;
+  }
+
+  .page-img {
+    height: 280px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .page-img {
+    height: 30vh;
   }
 }
