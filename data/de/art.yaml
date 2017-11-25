@@ -1,57 +1,233 @@
 art:
-  - title: "Am Meer"
-    category: "Zeichnungen"
+  - file: "near-the-sea.jpg"
+    title: "Am Meer"
     description: "Stift & Acryl auf Papier"
-    identifier: "2010-01"
+    category: "Zeichnungen"
     year: 2010
-    width: 42
-    height: 58
+    width: 58
+    height: 42
     fullres: "1600x1150"
-  - title: "Behütet"
-    category: "Kritik"
+  - file: "sheltered.jpg"
+    title: "Behütet"
     description: "Öl auf Leinwand"
-    identifier: "2010-02"
-    year: 2010
-    width: 30
-    height: 40
-    fullres: "1600x1200"
-  - title: ""
-    category: "Zeichnungen"
-    description: ""
-    identifier: ""
-    year: 
-    width: 
-    height: 
-    fullres: ""
-  - title: ""
-    category: "Zeichnungen"
-    description: ""
-    identifier: ""
-    year: 
-    width: 
-    height: 
-    fullres: ""
-  - title: ""
     category: "Kritik"
-    description: ""
-    identifier: ""
-    year: 
-    width: 
-    height: 
-    fullres: ""
-  - title: ""
-    category: ""
-    description: ""
-    identifier: ""
-    year: 
-    width: 
-    height: 
-    fullres: ""
-  - title: ""
-    category: ""
-    description: ""
-    identifier: ""
-    year: 
-    width: 
-    height: 
-    fullres: ""
+    year: 2010
+    width: 40
+    height: 30
+    fullres: "1600x1200"
+  - file: "legend-of-the-fen-fire-2.jpg"
+    title: "Zur Sage von den Bludniki II"
+    description: "Öl auf Leinwand"
+    category: "Sagen"
+    year: 2016
+    width: 60
+    height: 80
+    fullres: "1200x1600"
+  - file: "knockout.jpg"
+    title: "K.O."
+    description: "Aquarell"
+    category: "Portraits"
+    year: 2009
+    width: 29
+    height: 30
+    fullres: "1531x1600"
+  - file: "first-snow.jpg"
+    title: "Der erste Schnee"
+    description: "Öl auf Leinwand"
+    category: "Kritik"
+    year: 2010
+    width: 40
+    height: 30
+    fullres: "1600x1200"
+  - file: "birth.jpg"
+    title: "Die Geburt"
+    description: "Öl auf Leinwand"
+    category: "Kritik"
+    year: 2010
+    width: 40
+    height: 30
+    fullres: "1600x1200"
+  - file: "legend-of-the-dwarfs.jpg"
+    title: "Zur Sage von den Lutki"
+    description: "Öl auf Leinwand"
+    category: "Sagen"
+    year: 2016
+    width: 70
+    height: 50
+    fullres: "1600x1143"
+  - file: "ice-age.jpg"
+    title: "Eiszeit"
+    description: "Öl auf Nessel"
+    category: "Spiegelungen"
+    year: 2009
+    width: 40
+    height: 30
+    fullres: "1600x1200"
+  - file: "horror.jpg"
+    title: "Entsetzen"
+    description: "Aquarell"
+    category: "Portraits"
+    year: 2009
+    width: 30
+    height: 30
+    fullres: "1531x1600"
+  - file: "legend-of-the-fen-fire.jpg"
+    title: "Zur Sage von den Blutniki"
+    description: "Öl auf Leinwand"
+    category: "Sagen"
+    year: 2016
+    width: 80
+    height: 60
+    fullres: "1600x1200"
+  - file: "leibsch.jpg"
+    title: "Leibsch"
+    description: "Öl auf Leinwand"
+    category: "Spiegelungen"
+    year: 2009
+    width: 40
+    height: 30
+    fullres: "1600x1200"
+  - file: "girl.jpg"
+    title: "Mädchen"
+    description: "Aquarell"
+    category: "Portraits"
+    year: 2009
+    width: 30
+    height: 30
+    fullres: "1531x1600"
+  - file: "legend-of-lady-midday.jpg"
+    title: "Zur Sage von der Psezpoldnica"
+    description: "Öl auf Leinwand"
+    category: "Sagen"
+    year: 2016
+    width: 80
+    height: 60
+    fullres: "1600x1200"
+  - file: "nude.jpg"
+    title: "Akt"
+    description: "Öl auf Leinwand"
+    category: "Portraits"
+    year: 2015
+    width: 40
+    height: 60
+    fullres: "1067x1600"
+  - file: "legend-of-the-aquarius-2.jpg"
+    title: "Zur Sage vom Nyks"
+    description: "Öl auf Leinwand"
+    category: "Sagen"
+    year: 2016
+    width: 60
+    height: 80
+    fullres: "1244x1600"
+  - file: "palm-trees.jpg"
+    title: "Palmen"
+    description: "Stift & Acryl auf Papier"
+    category: "Zeichnungen"
+    year: 2010
+    width: 58
+    height: 42
+    fullres: "1600x1138"
+  - file: "stained.jpg"
+    title: "Befleckt"
+    description: "Stift & Acryl auf Papier"
+    category: "Zeichnungen"
+    year: 2010
+    width: 58
+    height: 42
+    fullres: "1600x1154"
+  - file: "smoker.jpg"
+    title: "Raucherin"
+    description: "Aquarell"
+    category: "Portraits"
+    year: 2009
+    width: 30
+    height: 30
+    fullres: "1531x1600"
+  - file: "legend-of-the-aquarius.jpg"
+    title: "Zur Sage vom Wodny Muz"
+    description: "Öl auf Leinwand"
+    category: "Sagen"
+    year: 2016
+    width: 100
+    height: 80
+    fullres: "1280x1600"
+  - file: "andreas.jpg"
+    title: "Andrea(s)"
+    description: "Aquarell"
+    category: "Portraits"
+    year: 2009
+    width: 30
+    height: 30
+    fullres: "1531x1600"
+  - file: "self-portrait.jpg"
+    title: "Selbstporträt"
+    description: "Öl auf Nessel"
+    category: "Spiegelungen"
+    year: 2009
+    width: 40
+    height: 30
+    fullres: "1600x1200"
+  - file: "spreewald.jpg"
+    title: "Spreewald"
+    description: "Öl auf Leinwand"
+    category: "Spiegelungen"
+    year: 2015
+    width: 120
+    height: 80
+    fullres: "1600x1120"
+  - file: "heads-of-sorbian-legends.jpg"
+    title: "Köpfe zu den sorbischen Sagen"
+    description: "Ton"
+    category: "Skulpturen"
+    year: 2016
+    width: 0
+    height: 0
+    fullres: "1600x1065"
+  - file: "under-the-bridge.jpg"
+    title: "Unter der Brücke"
+    description: "Öl auf Leinwand"
+    category: "Spiegelungen"
+    year: 2009
+    width: 40
+    height: 30
+    fullres: "1600x1200"
+  - file: "water-movement.jpg"
+    title: "Wasserbewegung"
+    description: "Öl auf Nessel"
+    category: "Spiegelungen"
+    year: 2009
+    width: 40
+    height: 30
+    fullres: "1600x1200"
+  - file: "water-movement-2.jpg"
+    title: "Wasserbewegung II"
+    description: "Öl auf Leinwand"
+    category: "Spiegelungen"
+    year: 2013
+    width: 70
+    height: 50
+    fullres: "1600x1143"
+  - file: "king-of-the-wends.jpg"
+    title: "Zur Sage vom Serbski Kral"
+    description: "Öl auf Leinwand"
+    category: "Sagen"
+    year: 2016
+    width: 200
+    height: 120
+    fullres: "1600x953"
+  - file: "woschowska.jpg"
+    title: "Woschowska"
+    description: "Öl auf Leinwand"
+    category: "Spiegelungen"
+    year: 2009
+    width: 40
+    height: 30
+    fullres: "1600x1200"
+  - file: "legend-of-plon.jpg"
+    title: "Zur Sage vom Plon"
+    description: "Öl auf Leinwand"
+    category: "Sagen"
+    year: 2016
+    width: 80
+    height: 60
+    fullres: "1600x1200"

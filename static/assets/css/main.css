@@ -101,6 +101,7 @@ a {
 .grid-filter {
   font-size: 1rem;
   margin: 4rem 0 2rem 0;
+  text-align: center;
 }
 
 .grid-filter ul {
@@ -115,6 +116,7 @@ a {
 
 .nav-main {
   font-size: .825rem;
+  text-align: center;
 }
 
 .nav-main ul {

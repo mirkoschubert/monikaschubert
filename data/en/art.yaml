@@ -1,17 +1,233 @@
 art:
-  - title: "Near the Sea"
-    category: "Drawings"
-    description: "Pencil & Acrylic on paper"
-    identifier: "2010-01" # /tb/2010-01.jpg or /full/2010-01.jpg
-    year: 2010
-    width: 42
-    height: 58
-    fullres: "1600x1150"
-  - title: "Sheltered"
-    category: "Criticism"
-    description: "Oil on Canvas"
-    identifier: "2010-02"
-    year: 2010
-    width: 30
-    height: 40
-    fullres: "1600x1200"
+- file: "near-the-sea.jpg"
+  title: "Near the Sea"
+  description: "Pencil & Acrylic on Paper"
+  category: "Drawings"
+  year: 2010
+  width: 58
+  height: 42
+  fullres: "1600x1150"
+- file: "sheltered.jpg"
+  title: "Sheltered"
+  description: "Oil on Canvas"
+  category: "Criticism"
+  year: 2010
+  width: 40
+  height: 30
+  fullres: "1600x1200"
+- file: "legend-of-the-fen-fire-2.jpg"
+  title: "Legend of the Fen Fire II"
+  description: "Oil on Canvas"
+  category: "Legends"
+  year: 2016
+  width: 60
+  height: 80
+  fullres: "1200x1600"
+- file: "knockout.jpg"
+  title: "Knockout"
+  description: "Watercolor"
+  category: "Portraits"
+  year: 2009
+  width: 29
+  height: 30
+  fullres: "1531x1600"
+- file: "first-snow.jpg"
+  title: "First Snow"
+  description: "Oil on Canvas"
+  category: "Criticism"
+  year: 2010
+  width: 40
+  height: 30
+  fullres: "1600x1200"
+- file: "birth.jpg"
+  title: "Birth"
+  description: "Oil on Canvas"
+  category: "Criticism"
+  year: 2010
+  width: 40
+  height: 30
+  fullres: "1600x1200"
+- file: "legend-of-the-dwarfs.jpg"
+  title: "Legend of the Dwarfs"
+  description: "Oil on Canvas"
+  category: "Legends"
+  year: 2016
+  width: 70
+  height: 50
+  fullres: "1600x1143"
+- file: "ice-age.jpg"
+  title: "Ice Age"
+  description: "Oil on Nettle"
+  category: "Reflections"
+  year: 2009
+  width: 40
+  height: 30
+  fullres: "1600x1200"
+- file: "horror.jpg"
+  title: "Horror"
+  description: "Watercolor"
+  category: "Portraits"
+  year: 2009
+  width: 30
+  height: 30
+  fullres: "1531x1600"
+- file: "legend-of-the-fen-fire.jpg"
+  title: "Legenf of the Fen Fire"
+  description: "Oil on Canvas"
+  category: "Legends"
+  year: 2016
+  width: 80
+  height: 60
+  fullres: "1600x1200"
+- file: "leibsch.jpg"
+  title: "Leibsch"
+  description: "Oil on Canvas"
+  category: "Reflections"
+  year: 2009
+  width: 40
+  height: 30
+  fullres: "1600x1200"
+- file: "girl.jpg"
+  title: "Girl"
+  description: "Watercolor"
+  category: "Portraits"
+  year: 2009
+  width: 30
+  height: 30
+  fullres: "1531x1600"
+- file: "legend-of-lady-midday.jpg"
+  title: "Legend of Lady Midday"
+  description: "Oil on Canvas"
+  category: "Legends"
+  year: 2016
+  width: 80
+  height: 60
+  fullres: "1600x1200"
+- file: "nude.jpg"
+  title: "Nude"
+  description: "Oil on Canvas"
+  category: "Portraits"
+  year: 2015
+  width: 40
+  height: 60
+  fullres: "1067x1600"
+- file: "legend-of-the-aquarius-2.jpg"
+  title: "Legend of the Aquarius II"
+  description: "Oil on Canvas"
+  category: "Legends"
+  year: 2016
+  width: 60
+  height: 80
+  fullres: "1244x1600"
+- file: "palm-trees.jpg"
+  title: "Palm Trees"
+  description: "Pencil & Acrylic on Paper"
+  category: "Drawings"
+  year: 2010
+  width: 58
+  height: 42
+  fullres: "1600x1138"
+- file: "stained.jpg"
+  title: "Stained"
+  description: "Pencil & Acrylic on Paper"
+  category: "Drawings"
+  year: 2010
+  width: 58
+  height: 42
+  fullres: "1600x1154"
+- file: "smoker.jpg"
+  title: "Smoker"
+  description: "Watercolor"
+  category: "Portraits"
+  year: 2009
+  width: 30
+  height: 30
+  fullres: "1531x1600"
+- file: "legend-of-the-aquarius.jpg"
+  title: "Legend of the Aquarius"
+  description: "Oil on Canvas"
+  category: "Legends"
+  year: 2016
+  width: 100
+  height: 80
+  fullres: "1280x1600"
+- file: "andreas.jpg"
+  title: "Andrea(s)"
+  description: "Watercolor"
+  category: "Portraits"
+  year: 2009
+  width: 30
+  height: 30
+  fullres: "1531x1600"
+- file: "self-portrait.jpg"
+  title: "Self-portrait"
+  description: "Oil on Nettle"
+  category: "Reflections"
+  year: 2009
+  width: 40
+  height: 30
+  fullres: "1600x1200"
+- file: "spreewald.jpg"
+  title: "Spreewald"
+  description: "Oil on Canvas"
+  category: "Reflections"
+  year: 2015
+  width: 120
+  height: 80
+  fullres: "1600x1120"
+- file: "heads-of-sorbian-legends.jpg"
+  title: "Heads of Sorbian Legends"
+  description: "Clay"
+  category: "Sculptures"
+  year: 2016
+  width: 0
+  height: 0
+  fullres: "1600x1065"
+- file: "under-the-bridge.jpg"
+  title: "Under the Bridge"
+  description: "Oil on Canvas"
+  category: "Reflections"
+  year: 2009
+  width: 40
+  height: 30
+  fullres: "1600x1200"
+- file: "water-movement.jpg"
+  title: "Water Movement"
+  description: "Oil on Nettle"
+  category: "Reflections"
+  year: 2009
+  width: 40
+  height: 30
+  fullres: "1600x1200"
+- file: "water-movement-2.jpg"
+  title: "Water Movement II"
+  description: "Oil on Canvas"
+  category: "Reflections"
+  year: 2013
+  width: 70
+  height: 50
+  fullres: "1600x1143"
+- file: "king-of-the-wends.jpg"
+  title: "Legend of the Wends"
+  description: "Oil on Canvas"
+  category: "Legends"
+  year: 2016
+  width: 200
+  height: 120
+  fullres: "1600x953"
+- file: "woschowska.jpg"
+  title: "Woschowska"
+  description: "Oil on Canvas"
+  category: "Reflections"
+  year: 2009
+  width: 40
+  height: 30
+  fullres: "1600x1200"
+- file: "legend-of-plon.jpg"
+  title: "Legend of Plon"
+  description: "Oil on Canvas"
+  category: "Legends"
+  year: 2016
+  width: 80
+  height: 60
+  fullres: "1600x1200"

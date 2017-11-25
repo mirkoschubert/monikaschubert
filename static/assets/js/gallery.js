@@ -334,7 +334,6 @@
     setTimeout(function() {
       // controls the elements inside the expanded view
       self.previewEl.classList.add("preview--open");
-      //classie.add(self.previewEl, 'preview--open');
       // callback
       self.options.onExpand();
     }, 0);
@@ -345,7 +344,6 @@
       imagesLoaded(self.originalImg, function() {
         // close button just gets shown after the large image gets loaded
         self.previewEl.classList.add("preview--image-loaded");
-        //classie.add(self.previewEl, 'preview--image-loaded');
         // animate the opacity to 1
         self.originalImg.style.opacity = 1;
         // and once that's done..
@@ -423,15 +421,12 @@
 
     this.previewEl.classList.remove("preview--open");
     this.previewEl.classList.remove("preview--image-loaded");
-    //classie.remove(this.previewEl, 'preview--open');
-    //classie.remove(this.previewEl, 'preview--image-loaded');
 
     // callback
     this.options.onCloseItem(this, gridItem);
 
     // large image will animate back to the position of its grid's item
     this.originalImg.classList.add("animate");
-    //classie.add(this.originalImg, 'animate');
 
     // set the transform to the original/large image
     var win = this._getWinSize(),
@@ -492,7 +487,6 @@
       onEndTransition(self.originalImg, function() {
         // reset original/large image
         self.originalImg.classList.remove("animate");
-        //classie.remove(self.originalImg, 'animate');
         self.originalImg.style.WebkitTransform =
           "translate3d(0,0,0) scale3d(1,1,1)";
         self.originalImg.style.transform = "translate3d(0,0,0) scale3d(1,1,1)";
@@ -561,22 +555,11 @@
       var win = { width: window.innerWidth, height: window.innerHeight };
       instance.items.forEach(function(el) {
         if (item != el) {
-          var delay = Math.floor(Math.random() * 150);
-          el.style.WebkitTransition =
-            "opacity .6s " +
-            delay +
-            "ms cubic-bezier(.5,1,.2,1), -webkit-transform .6s " +
-            delay +
-            "ms cubic-bezier(.5,1,.2,1)";
-          el.style.transition =
-            "opacity .6s " +
-            delay +
-            "ms cubic-bezier(.5,1,.2,1), transform .6s " +
-            delay +
-            "ms cubic-bezier(.5,1,.2,1)";
-
-          el.style.WebkitTransform = "translate3d(-" + win.width + "px,0,0)";
-          el.style.transform = "translate3d(-" + win.width + "px,0,0)";
+          var delay = Math.floor(Math.random() * 50);
+          el.style.WebkitTransition = 'opacity .5s ' + delay + 'ms cubic-bezier(.7,0,.3,1), -webkit-transform .5s ' + delay + 'ms cubic-bezier(.7,0,.3,1)';
+          el.style.transition = 'opacity .5s ' + delay + 'ms cubic-bezier(.7,0,.3,1), transform .5s ' + delay + 'ms cubic-bezier(.7,0,.3,1)';
+          el.style.WebkitTransform = 'scale3d(0.1,0.1,1)';
+          el.style.transform = 'scale3d(0.1,0.1,1)';
           el.style.opacity = 0;
         }
       });
@@ -584,27 +567,15 @@
     onCloseItem: function(instance, item) {
       instance.items.forEach(function(el) {
         if (item != el) {
-          var delay = Math.floor(Math.random() * 150);
-          el.style.WebkitTransition =
-            "opacity .3s " +
-            delay +
-            "ms cubic-bezier(.5,1,.2,1), -webkit-transform .3s " +
-            delay +
-            "ms cubic-bezier(.5,1,.2,1)";
-          el.style.transition =
-            "opacity .3s " +
-            delay +
-            "ms cubic-bezier(.5,1,.2,1), transform .3s " +
-            delay +
-            "ms cubic-bezier(.5,1,.2,1)";
-
-          el.style.WebkitTransform = "translate3d(0,0,0)";
-          el.style.transform = "translate3d(0,0,0)";
+          el.style.WebkitTransition = 'opacity .4s, -webkit-transform .4s';
+          el.style.transition = 'opacity .4s, transform .4s';
+          el.style.WebkitTransform = 'scale3d(1,1,1)';
+          el.style.transform = 'scale3d(1,1,1)';
           el.style.opacity = 1;
 
           onEndTransition(el, function() {
-            el.style.transition = "none";
-            el.style.WebkitTransform = "none";
+            el.style.transition = 'none';
+            el.style.WebkitTransform = 'none';
           });
         }
       });
