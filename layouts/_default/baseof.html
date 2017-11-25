@@ -40,7 +40,7 @@
                 {{ with $f.category }}{{ $.Scratch.SetInMap "categories" . . }}{{ end }}
               {{ end }}
             {{ end }}
-            <li class="active"><a href="{{ "/" | absLangURL }}" class="all">All Pictures</a></li>
+            <li class="active"><a href="{{ "/" | absLangURL }}" class="all">{{ i18n "all-pictures" }}</a></li>
             {{ if .Page.IsHome }}
               {{ range $cat := $.Scratch.GetSortedMapValues "categories" }}
                 <li><a href="#" class="{{ $cat | lower }}">{{ $cat }}</a></li>

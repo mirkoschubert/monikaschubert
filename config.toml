@@ -1,6 +1,7 @@
 baseURL = "http://moni.mirkoschubert.de/"
 
 DefaultContentLanguage = "en"
+enableMissingTranslationPlaceholders = true
 
 sectionPagesMenu = "main"
 
