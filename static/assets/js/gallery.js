@@ -76,10 +76,14 @@
 
     this.items = [].slice.call(this.el.querySelectorAll(".grid-item"));
     this.filters = [].slice.call(document.querySelectorAll(".grid-filter a"));
+    this.filterIds = [];
+    this.isFiltered = false;
     this.isExpanded = false;
     this.isAnimating = false;
     this.previewEl = nextSibling(this.el);
     this.closeCtrl = this.previewEl.querySelector("button.action--close");
+    this.prevCtrl = this.previewEl.querySelector("button.action--prev");
+    this.nextCtrl = this.previewEl.querySelector("button.action--next");
     this.previewDescriptionEl = this.previewEl.querySelector(
       ".description--preview"
     );
@@ -97,6 +101,9 @@
       return false;
     },
     onOpenItem: function(instance, item) {
+      return false;
+    },
+    onChangeItem: function(instance, currentItem, nextItem) {
       return false;
     },
     onCloseItem: function(instance, item) {
@@ -187,6 +194,40 @@
     this.closeCtrl2.addEventListener("click", function() {
       self._closeItem();
     });
+    // prev and next
+    this.prevCtrl.addEventListener("click", function(ev) {
+      self._changeItem(ev, "prev");
+    });
+    this.nextCtrl.addEventListener("click", function(ev) {
+      self._changeItem(ev, "next");
+    });
+
+    // key bindings
+    document.addEventListener("keydown", function(e) {
+      if (self.isExpanded) {
+        e.preventDefault();
+        switch (e.which) {
+          case 27:
+            // ESC
+            console.log('close');
+            self._closeItem();
+            break;
+          case 37:
+          case 40:
+            // Left or Down
+            self._changeItem(e, "prev");
+            break;
+
+          case 39:
+          case 38:
+            // Right or Up
+            self._changeItem(e, "next");
+            break;
+          default:
+            break;
+        }
+      }
+    });
 
     window.addEventListener(
       "resize",
@@ -226,25 +267,26 @@
   };
 
   GridLoader.prototype._filter = function(ev, item) {
-    var self = this;
+    
+    this.filterIds = [];
+    this.isFiltered = ev.target.className !== "all";
 
+    var self = this;
     this.items.forEach(function(it) {
-      it.style.display =
-        ev.target.className !== "all" &&
-        !it.classList.contains(ev.target.className)
-          ? "none"
-          : "block";
+      if (ev.target.className !== "all" && !it.classList.contains(ev.target.className)) {
+        it.style.display = "none";
+      } else {
+        it.style.display = "block";
+        self.filterIds.push(self.items.indexOf(it));
+      }
     });
 
     this.filters.forEach(function(fi) {
-      fi.parentNode.className =
-        fi.className === ev.target.className ? "active" : "";
+      fi.parentNode.className = fi.className === ev.target.className ? "active" : "";
     });
 
-    console.log(ev.target.className);
-
+    console.log(ev.target.className, this.isFiltered);
     masonry.layout();
-
     self._render();
   };
 
@@ -304,25 +346,9 @@
 
     // apply transform to the clone
     this.cloneImg.style.WebkitTransform =
-      "translate3d(" +
-      dx +
-      "px, " +
-      dy +
-      "px, 0) scale3d(" +
-      z +
-      ", " +
-      z +
-      ", 1)";
+      "translate3d(" + dx + "px, " + dy + "px, 0) scale3d(" + z + ", " + z + ", 1)";
     this.cloneImg.style.transform =
-      "translate3d(" +
-      dx +
-      "px, " +
-      dy +
-      "px, 0) scale3d(" +
-      z +
-      ", " +
-      z +
-      ", 1)";
+      "translate3d(" + dx + "px, " + dy + "px, 0) scale3d(" + z + ", " + z + ", 1)";
 
     // add the description if any
     var descriptionEl = item.querySelector("figcaption");
@@ -359,6 +385,70 @@
       });
     });
   };
+
+
+  GridLoader.prototype._changeItem = function(e, direction) {
+
+    if (!this.isExpanded || this.isAnimating) return;
+    this.isAnimating = true;
+
+    console.log(direction);
+    var self = this;
+    var currentItem, nextItem;
+    var i = 0;
+    // find out which item is next
+    this.items.forEach(function(item) {
+      if (item.classList.contains("grid-item--current")) {
+        currentItem = item;
+        if (direction === "prev") {
+          // use only the shown items
+          if (self.isFiltered) {
+            nextItem = (self.filterIds.indexOf(i) === 0) ? self.items[self.filterIds[self.filterIds.length - 1]] : self.items[self.filterIds[self.filterIds.indexOf(i) - 1]];
+          } else {
+            nextItem = (i === 0) ? self.items[self.items.length - 1] : self.items[i - 1];
+          }
+        } else if (direction === "next") {
+          // use only the shown items
+          if (self.isFiltered) {
+            nextItem = (self.filterIds.indexOf(i) < self.filterIds.length - 1 ) ? self.items[self.filterIds[self.filterIds.indexOf(i) + 1]] : self.items[self.filterIds[0]] ; 
+          } else {
+            nextItem = (i + 1 < self.items.length) ? self.items[i + 1] : self.items[0];
+          }
+        }
+      }
+      i++;
+    });
+    // switch the hidden item in the grid
+    currentItem.classList.remove("grid-item--current");
+    nextItem.classList.add("grid-item--current");
+    // sitch the animation of the hidden items
+    this.options.onChangeItem(this, currentItem, nextItem);
+
+    // load the new original
+    this.current = this.items.indexOf(nextItem);
+    this._setOriginal(nextItem.querySelector("a").getAttribute("href"));
+
+    // add the description if any
+    var descriptionEl = nextItem.querySelector("figcaption");
+    if (descriptionEl) {
+      this.previewDescriptionEl.innerHTML = descriptionEl.innerHTML;
+    }
+
+    setTimeout(function() {
+      // controls the elements inside the expanded view
+      self.previewEl.classList.add("preview--open");
+      // callback
+      self.options.onExpand();
+    }, 0);
+    
+    // when the new original image is loaded
+    imagesLoaded(this.originalImg, function() {
+      // animate to full opacity
+      self.originalImg.style.opacity = 1;
+      self.isAnimating = false;
+    });    
+  };
+
 
   GridLoader.prototype._setOriginal = function(src) {
     if (!src) {
@@ -449,25 +539,9 @@
       z = gridImg.offsetWidth / this.originalImg.offsetWidth;
 
     this.originalImg.style.WebkitTransform =
-      "translate3d(" +
-      dx +
-      "px, " +
-      dy +
-      "px, 0) scale3d(" +
-      z +
-      ", " +
-      z +
-      ", 1)";
+      "translate3d(" + dx + "px, " + dy + "px, 0) scale3d(" + z + ", " + z + ", 1)";
     this.originalImg.style.transform =
-      "translate3d(" +
-      dx +
-      "px, " +
-      dy +
-      "px, 0) scale3d(" +
-      z +
-      ", " +
-      z +
-      ", 1)";
+      "translate3d(" + dx + "px, " + dy + "px, 0) scale3d(" + z + ", " + z + ", 1)";
 
     // once that's done..
     onEndTransition(this.originalImg, function() {
@@ -576,6 +650,32 @@
           onEndTransition(el, function() {
             el.style.transition = 'none';
             el.style.WebkitTransform = 'none';
+          });
+        }
+      });
+    },
+    onChangeItem: function(instance, currentItem, nextItem) {
+      instance.items.forEach(function(el) {
+        if (currentItem === el) {
+          // bring the current item to its animated size
+          var delay = Math.floor(Math.random() * 50);
+          el.style.WebkitTransition = 'opacity .5s ' + delay + 'ms cubic-bezier(.7,0,.3,1), -webkit-transform .5s ' + delay + 'ms cubic-bezier(.7,0,.3,1)';
+          el.style.transition = 'opacity .5s ' + delay + 'ms cubic-bezier(.7,0,.3,1), transform .5s ' + delay + 'ms cubic-bezier(.7,0,.3,1)';
+          el.style.WebkitTransform = 'scale3d(0.1,0.1,1)';
+          el.style.transform = 'scale3d(0.1,0.1,1)';
+          el.style.opacity = 0;
+        }
+        if (nextItem === el) {
+          // bring the next item to its usual size
+          el.style.WebkitTransition = 'opacity .4s, -webkit-transform .4s';
+          el.style.transition = 'opacity .4s, transform .4s';
+          el.style.WebkitTransform = 'scale3d(1,1,1)';
+          el.style.transform = 'scale3d(1,1,1)';
+          el.style.opacity = 1;
+
+          onEndTransition(el, function() {
+            el.style.transition = "none";
+            el.style.transform = "none";
           });
         }
       });

@@ -1,0 +1,16 @@
+<nav class="grid-filter">
+  <ul>
+    {{ $data := index .Site.Data .Site.Language.Lang }}
+    {{ range $e := $data.art }}
+      {{ range $f := sort $e "category" "asc" }}
+        {{ with $f.category }}{{ $.Scratch.SetInMap "categories" . . }}{{ end }}
+      {{ end }}
+    {{ end }}
+    <li class="active"><a href="{{ "/" | absLangURL }}" class="all">{{ i18n "all-pictures" }}</a></li>
+    {{ if .Page.IsHome }}
+      {{ range $cat := $.Scratch.GetSortedMapValues "categories" }}
+        <li><a href="#" class="{{ $cat | lower }}">{{ $cat }}</a></li>
+      {{ end }}
+    {{ end }}
+  </ul>
+</nav>

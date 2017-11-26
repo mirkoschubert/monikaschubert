@@ -512,7 +512,7 @@ a {
 }
 
 
-/* Close button */
+/* buttons */
 .action {
   font-size: 1.5em;
   margin: 0;
@@ -530,11 +530,9 @@ a {
   outline: none;
 }
 
-.action--close {
+.action--close, .action--prev, .action--next {
   position: fixed;
   z-index: 150;
-  top: 0;
-  right: 0;
   padding: 1em;
   opacity: 0;
   -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
@@ -543,7 +541,24 @@ a {
   transform: scale3d(0.6, 0.6, 1);
 }
 
+.action--close {
+  top: 0;
+  right: 0;
+}
+
+.action--prev {
+  bottom: 0;
+  left: 0;
+}
+
+.action--next {
+  bottom: 0;
+  right: 0;
+}
+
 .preview--image-loaded .action--close,
+.preview--image-loaded .action--prev,
+.preview--image-loaded .action--next,
 .nav-group--open .action--close {
   opacity: 1;
   -webkit-transform: scale3d(1, 1, 1);
@@ -608,6 +623,44 @@ a {
   .grid-item {
     width: 100%;
   }
+  
+}
+
+/* Smartphones */
+@media screen and (max-width: 640px) {
+  
+  .site-header {
+    position: relative;
+    width: 100%;
+    padding: 40px 20px 0;
+  }
+  .site-menu-button {
+    display: block;
+  }
+  .nav-group {
+    display: none;
+    position: fixed;
+    z-index: 5000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #ededed;
+    opacity: 0;
+    -webkit-transition: opacity 0.6s;
+    transition: opacity 0.6s;
+  }
+  .nav-group--open {
+    opacity: 1;
+    -webkit-transition: opacity 0.6s;
+    transition: opacity 0.6s;
+  }
+
+  .site-main {
+    margin: 0;
+    padding: 40px 20px;
+  }
+
   .grid-item .centered {
     position: relative;
     top: inherit;
@@ -646,55 +699,16 @@ a {
   .grid-item figcaption h3:hover {
     color: #c0392b;
   }
-  .grid-item figcaption p {
-    opacity: 1;
-    color: #323232;
-    margin-top: 10px;
-  }
-  .grid-item a:hover {
-    border-bottom: 0;
-  }
-}
-
-/* Smartphones */
-@media screen and (max-width: 640px) {
-  
-  .site-header {
-    position: relative;
-    width: 100%;
-    padding: 40px 20px 0;
-  }
-  .site-menu-button {
-    display: block;
-  }
-  .nav-group {
-    display: none;
-    position: fixed;
-    z-index: 5000;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    background-color: #ededed;
-    opacity: 0;
-    -webkit-transition: opacity 0.6s;
-    transition: opacity 0.6s;
-  }
-  .nav-group--open {
-    opacity: 1;
-    -webkit-transition: opacity 0.6s;
-    transition: opacity 0.6s;
-  }
-
-  .site-main {
-    margin: 0;
-    padding: 40px 20px;
-  }
 
   .grid-item figcaption p {
     display: block;
     color: #afafaf;
   }
+
+  .grid-item a:hover {
+    border-bottom: 0;
+  }
+
   .loading::before {
     padding: 0;
   }
