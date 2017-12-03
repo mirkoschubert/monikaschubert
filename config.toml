@@ -1,4 +1,4 @@
-baseURL = "http://moni.mirkoschubert.de/"
+baseURL = "http://dev.monikaschubert.com/"
 
 DefaultContentLanguage = "en"
 enableMissingTranslationPlaceholders = true

@@ -9,14 +9,22 @@ menu:
     weight: 1
 ---
 
-Born in 1952 in Niesky the German artist Monika Schubert lives after stops in Bautzen and Dresden in Luebben (Spreewald). She taught there since 1989 at the music school Dahme Spreewald the subject concert guitar. After a six-year training at the Conservatory Cottbus she took over the subjects of electric guitar and bass guitar as well. With her ​​students she started band projects. They participated in competitions and performed in the area.
+I was born in 1952 in Niesky, Upper Lusatia and moved after my graduation to Bautzen for professional training.
 
-Over time her interest for painting grew stronger and so she worked autodidactic on her development. There were offered various solo exhibitions to her, so she participated in displays in Luebben, Schoenwalde and Niesky and more.
+Afterwards I moved to Dresden for a couple of years and found my new home in Lübben now. I started working in the county music school Dahme-Spreewald in 1989 and taught after six years of training concert, electric and bass guitar. With my students I realized band projects and we gave many public concerts in the area. To our delight we were allowed to play as the supporting act for the Puhdys, City and Karat.
 
-In summer 2007, Monika Schubert took a correspondence course at the Academy of Painting under the leadership of Ute Wöllmann (master student of Georg Baselitz) in Berlin. In the first year, Monika Schubert dealt in detail with the technique of watercolor painting, her motives were mostly portraits of children. For her also socio-critical issues and the position of the viewer in or before the image were occasions to paint. After a public presentation she was admitted to the graduate of 2008.
+Along the way I was also interested in painting and so I worked on my development in this area for myself. I was offered various solo exhibitions in Lübben, Goyatz, Schönwalde and Niesky, which pushed my development of painting.
 
-Particular highlights of her study were a personal image consultation with the painter Norbert Bisky in 2009 and a weekend course on the consequence of visual language with the Berlin artist Jonas Burgert.
+In summer of 2007 I took a correspondence course at the Academy of Painting in Berlin under Ute Wöllmann (master student of Georg Baselitz).
 
-In 2010, Monika Schubert participated in the foundation of a general partnership and was co-owner of the co-operative gallery ROOT on Savigny Platz in Berlin. Regularly there are held group and double exhibitions. By now she has reached the master's degree of Ute Wöllmann and works as a freelance artist. Since the completion of her studies she is represented by the gallery Lehmann, Ahrenshoop.
+As a freshman I dealt mainly with watercolor painting - my motifs were mostly portraits, especially of children. Later I devoted myself to oil painting and sociocritical topics influenced my work as well. For me the viewer played a special role. I tried to pack him into a specific point of view with my art work.
 
-Expressing the own thoughts and feelings in the picture, makes her a painter with message and shows her emphatic position as an artist.
+Major highlights during my studies were a personal image consultation with the Berlin painter Norbert Bisky in 2009 and two weekend trainings with the painter Jonas Burgert, whose topics included »The Consequence of Visual Language«.
+
+In 2010, I took part in the foundation of a BGB company and became a co-owner of Galery ROOT at Savigny-Platz in Berlin, where I was able to participate in solo and group exhibitions.
+
+After graduation I became a master student of Ute Wöllmann.
+
+By now I have successfully organized various solo exhibitions in Lübben, Cottbus and the surrounding area in order to be perceived by the people there.
+
+I deliberately chose a naturalistic style of painting and strive to incorporate my imagination and feelings.

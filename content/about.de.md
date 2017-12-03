@@ -10,14 +10,22 @@ menu:
     weight: 1
 ---
 
-Geboren 1952 in Niesky die deutsche Künstlerin Monika Schubert nach Stationen in Bautzen und Dresden in Luebben (Spreewald) lebt. Sie unterrichtete dort seit 1989 an der Musikschule Dahme Spreewald das Thema Konzertgitarre. Nach einer sechsjährigen Ausbildung am Konservatorium Cottbus übernahm sie die Themen der e-Gitarre und Bass-Gitarre. Mit ihren Schülern begann sie Bandprojekten. Sie beteiligte sich an Wettbewerben und in der Umgebung durchgeführt.
+Ich wurde 1952 in Niesky, Oberlausitz geboren und siedelte nach meinem Schulabschluß zur Berufsausbildung nach Bautzen um.
 
-Im Laufe der Zeit wurde ihr Interesse für die Malerei immer stärker und so arbeitete autodidaktisch auf ihre Entwicklung. Es wurden angeboten verschiedene Einzelausstellungen zu ihr, so dass sie in Anzeigen in Luebben, Schoenwalde und Niesky teilgenommen.
+Später zog ich für einige Jahre nach Dresden und habe nun meine neue Heimat in Lübben gefunden. Dort arbeitete ich ab 1989 in der Kreismusikschule Dahme-Spreewald und unterrichtete nach sechsjähriger Ausbildung Konzert-, E-, und Bassgitarre. Mit meinen Schülern realisierte ich Bandprojekte und wir gaben in der Umgebung viele öffentliche Konzerte. Zu unserer Freude durften wir auch als Vorband der Puhdys, City und Karat spielen.
 
-Im Sommer 2007 nahm Monika Schubert ein Fernstudium an der Akademie der Malerei unter der Leitung von Ute Wöllmann (Meisterschüler von Georg Baselitz) in Berlin. Im ersten Jahr Monika Schubert befasste sich eingehend mit der Technik der Aquarellmalerei, ihre Motive waren meist Porträts von Kindern. Für sie wurden auch sozialkritische Themen und die Position des Betrachters im oder vor dem Bild Gelegenheiten zu malen. Nach einer öffentlichen Präsentation wurde sie an die Absolventin der 2008 aufgenommen.
+Mein Interesse galt nebenher auch der Malerei und so arbeitete ich autodidaktisch an meiner Entwicklung auf diesem Gebiet. Mir wurden verschiedene Einzelausstellungen in Lübben, Goyatz, Schönwalde und Niesky angeboten, die meine Beschäftigung mit der Malerei voran trieben.
 
-Besondere highlights ihrer Studie ein persönliches Bild Konsultierung der Maler Norbert Bisky im Jahr 2009 und ein Wochenend-Kurs auf die Folge der Bildsprache mit dem Berliner Künstler Jonas Burgert waren.
+Im Sommer 2007 nahm ich ein Fernstudium an der Akademie für Malerei in Berlin bei Ute Wöllmann (Meisterschülerin von Georg Baselitz) auf.
 
-Im Jahr 2010 Monika Schubert beteiligte sich an der Gründung einer Kollektivgesellschaft und Miteigentümer der Genossenschaft Galerie ROOT am Savigny-Platz in Berlin war. Regelmäßig finden dort Gruppe und doppelte Ausstellungen statt. Inzwischen erreichte sie den Master-Abschluss der Ute Wöllmann und arbeitet als freischaffende Künstlerin. Seit dem Abschluss ihres Studiums ist sie durch die Galerie Lehmann, Ahrenshoop vertreten.
+Im ersten Studienjahr beschäftigte ich mich mit der Aquarellmalerei - meine Motive waren meist Porträts, insbesondere von Kindern. Später widmete ich mich der Ölmalerei und es nahmen auch sozialkritische Themen Einfluss auf meine Arbeiten. Eine besondere Rolle spielte für mich der Betrachter. Ich versuchte, ihn durch meine Bildgestaltung in eine Position zu drängen.
 
-Mit dem Ausdruck der eigenen Gedanken und Gefühle in das Bild macht ihr ein Maler mit Nachricht und zeigt ihre emphatische Stellung als Künstler.
+Wichtige Highlights während des Studiums waren für mich eine persönliche Bildkonsultierung mit dem Berliner Maler Norbert Bisky im Jahr 2009 und zwei Wochenendlehrgänge mit dem ebenfalls in Berlin arbeitenden Maler Jonas Burgert, bei dem es unter anderem um das für mich interessante Thema »Die Konsequenz der Bildsprache« ging.
+
+Im Jahr 2010 beteiligte ich mich an der Gründung einer GbR und wurde Miteigentümerin der Galerie ROOT am Savigny-Platz in Berlin, in der ich mich an Einzel- und Gruppenausstellungen beteiligen konnte.
+
+Nach dem Abschluss des Studiums wurde ich Meisterschülerin von Ute Wöllmann.
+
+Inzwischen habe ich verschiedene Einzelausstellungen in Lübben, Cottbus und Umgebung erfolgreich organisiert, um auch dort von den Menschen wahrgenommen zu werden.
+
+Ich habe mich bewusst für eine naturalistische Malweise entschieden und bemühe mich, meine Fantasie einfließen zu lassen und Empfindungen zu zeigen.

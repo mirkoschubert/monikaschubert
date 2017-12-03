@@ -12,11 +12,23 @@ menu:
 
 ## Aktuell & Bevorstehend
 
-#### 03.12.2017 - 06.01.2018 | Gallerie ROOT, Berlin
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit natus, laudantium doloremque voluptatem at sed ratione atque, earum doloribus officiis veritatis blanditiis veniam. Ipsam ducimus cumque ratione omnis fugiat ab.
+Derzeit gibt es keine aktuellen oder bevorstehenden Ausstellungen.
 
 ## Bisher
+
+### 2017
+
+- Einzelausstellung »Veränderte Augenblicke« im Landratsamt Lübben
+
+### 2016
+
+- Einzelausstellung »Sagengeburten« im Wendischen Haus (Serbsky Dom) in Cottbus
+- Einzelausstellung anlässlich des »Tages des offenen Ateliers« in Lübben
+
+### 2015
+
+- Einzelausstellung »Kunst im Garten« anlässlich des »Tages des offenen Ateliers« in Lübben
+- Gruppenausstellung »Kunst im Quadrat« in der »Vertikalen Galerie« in Lübben
 
 ### 2013
 

@@ -11,11 +11,23 @@ menu:
 
 ## Current & Upcoming
 
-#### 2017/12/03 - 2018/01/06 | Gallery ROOT, Berlin
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit natus, laudantium doloremque voluptatem at sed ratione atque, earum doloribus officiis veritatis blanditiis veniam. Ipsam ducimus cumque ratione omnis fugiat ab.
+There are no current or upcoming exhibitions.
 
 ## Previous
+
+### 2017
+
+- Solo exhibition »Altered Moments« in the District Office Lübben
+
+### 2016
+
+- Solo exhibition »Births of Legends« in the Wendish House (Serbsky Dom) in Cottbus
+- Solo exhibition on the occasion of the »Open Studio Day« in Lübben
+
+### 2015
+
+- Solo exhibition "Art in the Garden" on the occasion of the "Open Studio Day" in Lübben
+- Group exhibition "Art in the Square" in the "Vertical Gallery" in Lübben
 
 ### 2013
 
