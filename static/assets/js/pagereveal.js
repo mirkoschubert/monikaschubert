@@ -37,11 +37,7 @@
     var effectSettings = this.effect;
     var animeOpts = effectSettings.animeOpts;
 
-    animeOpts.targets =
-      effectSettings.sortTargetsFn &&
-      typeof effectSettings.sortTargetsFn === "function"
-        ? [].slice.call(this.items).sort(effectSettings.sortTargetsFn)
-        : this.items;
+    animeOpts.targets = effectSettings.sortTargetsFn && typeof effectSettings.sortTargetsFn === "function" ? [].slice.call(this.items).sort(effectSettings.sortTargetsFn) : this.items;
     anime.remove(animeOpts.targets);
     anime(animeOpts);
   };
@@ -68,7 +64,7 @@
   var masonry, loader, loaderTimeout;
 
   function init() {
-    imagesLoaded(body, function() {
+    imagesLoaded(page, function() {
       loader = new PageLoader(page);
       loader._render();
 
@@ -80,11 +76,11 @@
     var client, inner;
 
     if (axis === "x") {
-      client = doc["clientWidth"];
-      inner = window["innerWidth"];
+      client = doc.clientWidth;
+      inner = window.innerWidth;
     } else if (axis === "y") {
-      client = doc["clientHeight"];
-      inner = window["innerHeight"];
+      client = doc.clientHeight;
+      inner = window.innerHeight;
     }
 
     return client < inner ? inner : client;

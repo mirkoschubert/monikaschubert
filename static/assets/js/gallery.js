@@ -245,11 +245,7 @@
     var effectSettings = this.effect;
     var animeOpts = effectSettings.animeOpts;
 
-    animeOpts.targets =
-      effectSettings.sortTargetsFn &&
-      typeof effectSettings.sortTargetsFn === "function"
-        ? [].slice.call(this.items).sort(effectSettings.sortTargetsFn)
-        : this.items;
+    animeOpts.targets = effectSettings.sortTargetsFn && typeof effectSettings.sortTargetsFn === "function" ? [].slice.call(this.items).sort(effectSettings.sortTargetsFn) : this.items;
     anime.remove(animeOpts.targets);
     anime(animeOpts);
   };
@@ -315,40 +311,13 @@
     var win = this._getWinSize(),
       originalSizeArr = item.getAttribute("data-size").split("x"),
       originalSize = { width: originalSizeArr[0], height: originalSizeArr[1] },
-      dx =
-        (this.options.imgPosition.x > 0
-          ? 1 - Math.abs(this.options.imgPosition.x)
-          : Math.abs(this.options.imgPosition.x)) *
-          win.width +
-        this.options.imgPosition.x * win.width / 2 -
-        gImgOffset.left -
-        0.5 * gImg.offsetWidth,
-      dy =
-        (this.options.imgPosition.y > 0
-          ? 1 - Math.abs(this.options.imgPosition.y)
-          : Math.abs(this.options.imgPosition.y)) *
-          win.height +
-        this.options.imgPosition.y * win.height / 2 -
-        gImgOffset.top -
-        0.5 * gImg.offsetHeight,
-      z = Math.min(
-        Math.min(
-          win.width * Math.abs(this.options.imgPosition.x) -
-            this.options.pagemargin,
-          originalSize.width - this.options.pagemargin
-        ) / gImg.offsetWidth,
-        Math.min(
-          win.height * Math.abs(this.options.imgPosition.y) -
-            this.options.pagemargin,
-          originalSize.height - this.options.pagemargin
-        ) / gImg.offsetHeight
-      );
+      dx = (this.options.imgPosition.x > 0 ? 1 - Math.abs(this.options.imgPosition.x) : Math.abs(this.options.imgPosition.x)) * win.width + this.options.imgPosition.x * win.width / 2 - gImgOffset.left - 0.5 * gImg.offsetWidth,
+      dy = (this.options.imgPosition.y > 0 ? 1 - Math.abs(this.options.imgPosition.y) : Math.abs(this.options.imgPosition.y)) * win.height + this.options.imgPosition.y * win.height / 2 - gImgOffset.top - 0.5 * gImg.offsetHeight,
+      z = Math.min(Math.min(win.width * Math.abs(this.options.imgPosition.x) - this.options.pagemargin, originalSize.width - this.options.pagemargin) / gImg.offsetWidth, Math.min( win.height * Math.abs(this.options.imgPosition.y) - this.options.pagemargin, originalSize.height - this.options.pagemargin) / gImg.offsetHeight);
 
     // apply transform to the clone
-    this.cloneImg.style.WebkitTransform =
-      "translate3d(" + dx + "px, " + dy + "px, 0) scale3d(" + z + ", " + z + ", 1)";
-    this.cloneImg.style.transform =
-      "translate3d(" + dx + "px, " + dy + "px, 0) scale3d(" + z + ", " + z + ", 1)";
+    this.cloneImg.style.WebkitTransform = "translate3d(" + dx + "px, " + dy + "px, 0) scale3d(" + z + ", " + z + ", 1)";
+    this.cloneImg.style.transform = "translate3d(" + dx + "px, " + dy + "px, 0) scale3d(" + z + ", " + z + ", 1)";
 
     // add the description if any
     var descriptionEl = item.querySelector("figcaption");
@@ -376,8 +345,7 @@
         onEndTransition(self.originalImg, function() {
           // reset cloneImg
           self.cloneImg.style.opacity = 0;
-          self.cloneImg.style.WebkitTransform =
-            "translate3d(0,0,0) scale3d(1,1,1)";
+          self.cloneImg.style.WebkitTransform = "translate3d(0,0,0) scale3d(1,1,1)";
           self.cloneImg.style.transform = "translate3d(0,0,0) scale3d(1,1,1)";
 
           self.isAnimating = false;
@@ -520,28 +488,12 @@
 
     // set the transform to the original/large image
     var win = this._getWinSize(),
-      dx =
-        gridImgOffset.left +
-        gridImg.offsetWidth / 2 -
-        ((this.options.imgPosition.x > 0
-          ? 1 - Math.abs(this.options.imgPosition.x)
-          : Math.abs(this.options.imgPosition.x)) *
-          win.width +
-          this.options.imgPosition.x * win.width / 2),
-      dy =
-        gridImgOffset.top +
-        gridImg.offsetHeight / 2 -
-        ((this.options.imgPosition.y > 0
-          ? 1 - Math.abs(this.options.imgPosition.y)
-          : Math.abs(this.options.imgPosition.y)) *
-          win.height +
-          this.options.imgPosition.y * win.height / 2),
+      dx = gridImgOffset.left + gridImg.offsetWidth / 2 - ((this.options.imgPosition.x > 0 ? 1 - Math.abs(this.options.imgPosition.x) : Math.abs(this.options.imgPosition.x)) * win.width + this.options.imgPosition.x * win.width / 2),
+      dy = gridImgOffset.top + gridImg.offsetHeight / 2 - ((this.options.imgPosition.y > 0 ? 1 - Math.abs(this.options.imgPosition.y) : Math.abs(this.options.imgPosition.y)) * win.height + this.options.imgPosition.y * win.height / 2),
       z = gridImg.offsetWidth / this.originalImg.offsetWidth;
 
-    this.originalImg.style.WebkitTransform =
-      "translate3d(" + dx + "px, " + dy + "px, 0) scale3d(" + z + ", " + z + ", 1)";
-    this.originalImg.style.transform =
-      "translate3d(" + dx + "px, " + dy + "px, 0) scale3d(" + z + ", " + z + ", 1)";
+    this.originalImg.style.WebkitTransform = "translate3d(" + dx + "px, " + dy + "px, 0) scale3d(" + z + ", " + z + ", 1)";
+    this.originalImg.style.transform = "translate3d(" + dx + "px, " + dy + "px, 0) scale3d(" + z + ", " + z + ", 1)";
 
     // once that's done..
     onEndTransition(this.originalImg, function() {
@@ -561,8 +513,7 @@
       onEndTransition(self.originalImg, function() {
         // reset original/large image
         self.originalImg.classList.remove("animate");
-        self.originalImg.style.WebkitTransform =
-          "translate3d(0,0,0) scale3d(1,1,1)";
+        self.originalImg.style.WebkitTransform = "translate3d(0,0,0) scale3d(1,1,1)";
         self.originalImg.style.transform = "translate3d(0,0,0) scale3d(1,1,1)";
 
         self.isAnimating = false;
@@ -574,11 +525,11 @@
     var client, inner;
 
     if (axis === "x") {
-      client = doc["clientWidth"];
-      inner = window["innerWidth"];
+      client = doc.clientWidth;
+      inner = window.innerWidth;
     } else if (axis === "y") {
-      client = doc["clientHeight"];
-      inner = window["innerHeight"];
+      client = doc.clientHeight;
+      inner = window.innerHeight;
     }
 
     return client < inner ? inner : client;

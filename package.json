@@ -1,0 +1,27 @@
+{
+  "name": "monikaschubert",
+  "version": "1.0.0",
+  "main": "",
+  "scripts": {
+    "build:all": "rm -rf ./public/* ./public/.[a-zA-Z]* && hugo && gulp tools:all",
+    "clear:all": "rm -rf ./public/* ./public/.[a-zA-Z]*"
+  },
+  "repository": "https://github.com/mirkoschubert/monikaschubert.git",
+  "author": "Mirko Schubert <mirkoschubert@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-changed": "^3.1.1",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-imagemin": "^4.0.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-prettify": "^0.5.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-watch": "^4.3.11",
+    "jshint": "^2.9.5",
+    "run-sequence": "^2.2.0"
+  }
+}

@@ -10,17 +10,17 @@
     _show();
     if (isOpen) {
       gridLinks.forEach(function(item) {
-        item.addEventListener("click", () => _hide());
+        item.addEventListener("click", function() { _hide(); });
       });
     }
   });
 
-  closeCtrl.addEventListener("click", () => _hide());
+  closeCtrl.addEventListener("click", function() { _hide(); });
 
   function _show() {
     if (isOpen) return;
     menu.style.display = "block";
-    setTimeout(() => {
+    setTimeout(function() {
       menu.classList.add("nav-group--open");
     }, 0);
     isOpen = true;
@@ -29,7 +29,7 @@
   function _hide() {
     if (!isOpen) return;
     console.log('hide');
-    setTimeout(() => {
+    setTimeout(function() {
       menu.classList.remove("nav-group--open");
     }, 0);
     menu.style.display = "none";
