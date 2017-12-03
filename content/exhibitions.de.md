@@ -1,9 +1,12 @@
 ---
 title: "Ausstellungen"
+description: "Halten Sie sich auf dem Laufenden, zu welcher Vernissage Sie gehen und welche Ausstellungen Sie bald besuchen können."
 date: 2017-11-23T23:53:43+01:00
+lastmod: 2017-12-03T20:07:37+01:00
+tags: ["ausstellungen", "termine", "events"]
+images: ["assets/img/exhibitions.jpg"]
 draft: false
 slug: "ausstellungen"
-image: "exhibitions.jpg"
 menu:
   main:
     name: "Ausstellungen"
@@ -12,13 +15,17 @@ menu:
 
 ## Aktuell & Bevorstehend
 
-Derzeit gibt es keine aktuellen oder bevorstehenden Ausstellungen.
+#### 05.05.2018 - 06.05.2018, »Tag des offenen Ateliers«, Radensdorfer Weg 6, Lübben
+
+Auch in diesem Jahr lade ich wieder zum »Tag des offenen Ateliers« in meinem Garten ein. Jeweils zwischen 11 und 18 Uhr haben Sie die Möglichkeit, bei Kaffee, Kuchen und etwas Livemusik meine neu geschaffenen Werke zu betrachten, Künstlergespräche zu führen und Ihr Lieblingsexemplar zu erwerben.
 
 ## Bisher
 
 ### 2017
 
+- Einzelausstellung »Sagengeburten« im Wendischen Museum Jänschwalde
 - Einzelausstellung »Veränderte Augenblicke« im Landratsamt Lübben
+- Einzelausstellung »Sagengeburten« Amt Unterspreewald in Schönwalde
 
 ### 2016
 

@@ -1,8 +1,11 @@
 ---
 title: "Contact"
+description: "Are you interested in the art of Monika Schubert and would like to buy your favorite painting? This is how you reach the artist."
 date: 2017-11-23T23:50:18+01:00
+lastmod: 2017-12-03T20:23:00+01:00
+tags: ["contact", "phone", "email", "buy paintings"]
+images: ["assets/img/contact.jpg"]
 draft: false
-image: "contact.jpg"
 menu:
   main:
     name: "Contact"

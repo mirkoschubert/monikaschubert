@@ -1,8 +1,11 @@
 ---
 title: "About the Artist"
+description: "At this point, you learn something about the life of the painter and her artistic work."
 date: 2017-11-23T20:22:55+01:00
+lastmod: 2017-12-03T20:25:52+01:00
+tags: ["about", "artist", "biography"]
+images: ["assets/img/about.jpg"]
 draft: false
-image: "about.jpg"
 menu:
   main:
     name: "About"

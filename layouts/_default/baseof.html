@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  {{ template "_internal/opengraph.html" . }}
+  {{ template "_internal/schema.html" . }}
+  {{ template "_internal/twitter_cards.html" . }}
   <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
   {{ partial "global/styles.html" . }}
 </head>
@@ -11,7 +14,7 @@
   <div class="site">
     <header class="site-header">
       <h3 class="site-title">{{ .Site.Title }}</h3>
-      <p class="site-description">{{ $.Site.Params.description }}</p>
+      <p class="site-description">{{ $.Site.Params.site_description }}</p>
       <hr />
       {{ if .IsTranslated }}
       <p class="site-languages">
@@ -65,5 +68,6 @@
     </section>
   </div>
   {{ block "scripts" . }}{{ end }}
+  {{ partial "global/analytics.html" }}
 </body>
 </html>

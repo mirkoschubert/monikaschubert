@@ -1,9 +1,12 @@
 ---
 title: "Kontakt"
+description: "Interessieren Sie sich für die Kunst von Monika Schubert und möchten Ihr Lieblingsbild kaufen? So erreichen Sie die Künstlerin."
 date: 2017-11-23T23:49:42+01:00
+lastmod: 2017-12-03T20:02:55+01:00
+tags: ["kontakt", "telefon", "email", "bilder kaufen"]
+images: ["assets/img/contact.jpg"]
 draft: false
 slug: "kontakt"
-image: "contact.jpg"
 menu:
   main:
     name: "Kontakt"

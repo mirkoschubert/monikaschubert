@@ -3,8 +3,8 @@
 {{ end }}
 {{ define "main" }}
   <div class="page">
-    {{ if isset .Params "image" }}
-    <div class="page-item page-img" style="background-image: url({{ .Site.BaseURL }}assets/img/{{ .Params.image }});"></div>
+    {{ if isset .Params "images" }}
+    <div class="page-item page-img" style="background-image: url({{ .Site.BaseURL }}{{ index .Params.images 0 }});"></div>
     {{ end }}
     <div class="page-item">
       <h1>{{ .Title }}</h1>

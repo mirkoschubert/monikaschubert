@@ -1,8 +1,11 @@
 ---
 title: "Privacy Notice"
+description: "On this website you will be informed about the data we save."
 date: 2017-11-23T23:51:14+01:00
+lastmod: 2017-12-03T20:15:35+01:00
+tags: ["privacy", "notice", "security"]
+images: ["assets/img/privacy.jpg"]
 draft: false
-image: "privacy.jpg"
 menu:
   main:
     name: "Privacy"

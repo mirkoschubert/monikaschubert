@@ -1,8 +1,11 @@
 ---
 title: "Imprint"
+description: "At this point you see the imprint."
 date: 2017-11-23T23:52:33+01:00
+lastmod: 2017-12-03T20:19:18+01:00
+tags: ["imprint"]
+images: ["assets/img/imprint.jpg"]
 draft: false
-image: "imprint.jpg"
 menu:
   main:
     name: "Imprint"

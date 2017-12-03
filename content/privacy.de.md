@@ -1,9 +1,12 @@
 ---
 title: "Datenschutzerklärung"
+description: "Auf dieser Seite werden Sie über die von uns gespeicherten Daten informiert."
 date: 2017-11-23T23:50:38+01:00
+lastmod: 2017-12-03T20:13:34+01:00
+tags: ["datenschutz", "sicherheit"]
+images: ["assets/img/privacy.jpg"]
 draft: false
 slug: "datenschutz"
-image: "privacy.jpg"
 menu:
   main:
     name: "Datenschutz"

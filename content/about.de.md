@@ -1,13 +1,17 @@
 ---
 title: "Über die Künstlerin"
+description: "An dieser Stelle erfahren Sie etwas aus dem Leben der Malerin und ihrem künstlerischen Schaffen."
 date: 2017-11-23T20:23:10+01:00
+lastmod: 2017-12-03T19:55:24+01:00
+tags: ["über", "künstlerin", "biografie"]
+images: ["assets/img/about.jpg"]
 draft: false
 slug: "ueber"
-image: "about.jpg"
 menu:
   main:
     name: "Über"
     weight: 1
+
 ---
 
 Ich wurde 1952 in Niesky, Oberlausitz geboren und siedelte nach meinem Schulabschluß zur Berufsausbildung nach Bautzen um.

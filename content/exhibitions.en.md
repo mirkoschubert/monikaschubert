@@ -1,8 +1,11 @@
 ---
 title: "Exhibitions"
+description: "Keep up to date on which vernissage you can go and which exhibitions you can visit soon."
 date: 2017-11-23T23:53:49+01:00
+lastmod: 2017-12-03T20:20:21+01:00
+tags: ["exhibitions", "dates", "events"]
+images: ["assets/img/exhibitions.jpg"]
 draft: false
-image: "exhibitions.jpg"
 menu:
   main:
     name: "Exhibitions"
@@ -11,13 +14,17 @@ menu:
 
 ## Current & Upcoming
 
-There are no current or upcoming exhibitions.
+#### 2018/05/05 - 2018/05/06, »Open Studio Day«, Radensdorfer Weg 6, Lübben
+
+This year again, I invite you for the »Open Studio Day« to my garden. Between 11 am and 6 pm, you have the opportunity to view my newly created paintings over coffee, cake and some live music, to hold artist talks and to purchase your favorite piece.
 
 ## Previous
 
 ### 2017
 
+- Solo exhibition »Births of Legends« in the Wendish Museum in Jänschwalde
 - Solo exhibition »Altered Moments« in the District Office Lübben
+- Solo exhibition »Births of Legends« in the Amt Unterspreewald in Schönwalde
 
 ### 2016
 

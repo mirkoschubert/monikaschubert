@@ -1,27 +1,32 @@
 baseURL = "http://dev.monikaschubert.com/"
 
-DefaultContentLanguage = "en"
-enableMissingTranslationPlaceholders = true
-
+disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]
 sectionPagesMenu = "main"
 
 [blackfriday]
-angledQuotes = true
-hrefTargetBlank = true
+  angledQuotes = true
+  hrefTargetBlank = true
 
+
+DefaultContentLanguage = "en"
+enableMissingTranslationPlaceholders = true
 
 [Languages]
 
 [Languages.en]
   title = "Monika Schubert"
-  description = "Artist"
+  site_description = "Artist"
+  description = "The German artist Monika Schubert presents her life and work, presents her paintings and invites to exhibitions."
+  author = "Monika Schubert"
   languageName = "English"
   languageCode = "en-us"
   weight = 1
 
 [Languages.de]
   title = "Monika Schubert"
-  description = "Künstlerin"
+  site_description = "Künstlerin"
+  description = "Die deutsche Künstlerin Monika Schubert stellt Ihr Leben und Schaffen vor, präsentiert ihre Bilder und lädt zu Ausstellungen ein."
+  author = "Monika Schubert"
   languageName = "Deutsch"
   languageCode = "de-de"
   weight = 2
