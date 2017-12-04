@@ -209,7 +209,6 @@
         switch (e.which) {
           case 27:
             // ESC
-            console.log('close');
             self._closeItem();
             break;
           case 37:
@@ -281,7 +280,6 @@
       fi.parentNode.className = fi.className === ev.target.className ? "active" : "";
     });
 
-    console.log(ev.target.className, this.isFiltered);
     masonry.layout();
     self._render();
   };
@@ -360,7 +358,6 @@
     if (!this.isExpanded || this.isAnimating) return;
     this.isAnimating = true;
 
-    console.log(direction);
     var self = this;
     var currentItem, nextItem;
     var i = 0;

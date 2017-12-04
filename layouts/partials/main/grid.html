@@ -1,0 +1,19 @@
+<div class="grid">
+  <div class="grid-sizer"></div> 
+  {{ $data := index .Site.Data .Site.Language.Lang }}
+  {{ range $e := $data.art }}
+    {{ range $f := sort $e "year" "desc" }}
+     <figure class="grid-item {{ lower $f.category }}" data-size="{{ $f.fullres }}">
+       <a class="grid-link" href="{{ $.Site.BaseURL }}art/full/{{ $f.file }}">
+         <img src="{{ $.Site.BaseURL }}art/tb/{{ $f.file }}" alt="{{ $f.title }}">
+       </a>
+       <figcaption>
+         <div class="centered">
+           <h3>{{ $f.title }} ({{ $f.year }})</h3>
+           <p>{{ if and (gt $f.height 0 ) (gt $f.width 0 ) }}{{ $f.height }} x {{ $f.width }} cm<br />{{ end }}{{ $f.description }}</p>
+         </div>
+       </figcaption>
+     </figure>
+    {{ end }}
+  {{ end }}
+</div>
