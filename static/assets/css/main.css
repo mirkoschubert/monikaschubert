@@ -579,7 +579,7 @@ a {
 **/
 
 /* Tablets Landscape & Small Computer Screens */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1280px) {
   .grid-sizer,
   .grid-item {
     width: 48%;
@@ -596,7 +596,7 @@ a {
 }
 
 /* Smartphones */
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 740px) {
   
   .site-header {
     position: relative;
@@ -667,8 +667,17 @@ a {
     color: #afafaf;
   }
 
+  .grid-item a {
+    pointer-events: none;
+    cursor: default;
+  }
+
   .grid-item a:hover {
     border-bottom: 0;
+  }
+
+  .description--preview h3 {
+    font-size: 1rem;
   }
 
   .loading::before {
@@ -683,8 +692,30 @@ a {
   }
 }
 
+/* Small Smartphones Portrait */
 @media screen and (max-width: 400px) {
   .page-img {
     height: 30vh;
+  }
+}
+
+/* Smartphones Landscape */
+@media screen and (max-height: 500px) {
+  .grid-filter, .nav-main {
+    display: block;
+    float: left;
+    width: 50%;
+  }
+
+  .nav-main {
+    margin: 4rem 0 2rem 0;
+  }
+  .nav-group::after {
+    visibility: hidden;
+    display: block;
+    content: ' ';
+    clear: both;
+    font-size: 0;
+    height: 0;
   }
 }
