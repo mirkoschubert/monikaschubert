@@ -700,7 +700,7 @@ a {
 }
 
 /* Smartphones Landscape */
-@media screen and (max-height: 500px) {
+@media screen and (max-height: 460px) {
   .grid-filter, .nav-main {
     display: block;
     float: left;
