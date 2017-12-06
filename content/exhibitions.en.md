@@ -57,7 +57,7 @@ This year again, I invite you for the »Open Studio Day« to my garden. Between 
 - Group exhibition »Mix: possible" in the gallery ROOT Savigny Platz, Berlin
 - Participation in the fair Berliner Liste
 - Exhibition »contradictory ripe for decision« in the gallery ROOT at Savigny Platz, Berlin
-- Solo exhibition "true to life" in the Small Gallery, Goyatz
+- Solo exhibition »true to life« in the Small Gallery, Goyatz
 
 ### 2010
 
