@@ -23,58 +23,58 @@ Auch in diesem Jahr lade ich wieder zum »Tag des offenen Ateliers« in meinem G
 
 ### 2017
 
-- Einzelausstellung »Sagengeburten« im Wendischen Museum Jänschwalde
-- Einzelausstellung »Veränderte Augenblicke« im Landratsamt Lübben
-- Einzelausstellung »Sagengeburten« Amt Unterspreewald in Schönwalde
+- Einzelausstellung »Sagengeburten« im Wendischen Museum, Jänschwalde
+- Einzelausstellung »Veränderte Augenblicke« im Landratsamt, Lübben
+- Einzelausstellung »Sagengeburten« Amt Unterspreewald, Schönwalde
 
 ### 2016
 
-- Einzelausstellung »Sagengeburten« im Wendischen Haus (Serbsky Dom) in Cottbus
-- Einzelausstellung anlässlich des »Tages des offenen Ateliers« in Lübben
+- Einzelausstellung »Sagengeburten« im Wendischen Haus (Serbsky Dom), Cottbus
+- Einzelausstellung anlässlich des »Tages des offenen Ateliers«, Lübben
 
 ### 2015
 
-- Einzelausstellung »Kunst im Garten« anlässlich des »Tages des offenen Ateliers« in Lübben
-- Gruppenausstellung »Kunst im Quadrat« in der »Vertikalen Galerie« in Lübben
+- Einzelausstellung »Kunst im Garten« anlässlich des »Tages des offenen Ateliers«, Lübben
+- Gruppenausstellung »Kunst im Quadrat« in der »Vertikalen Galerie« im Landratsamt, Lübben
 
 ### 2013
 
-- Teilnahme an der Ausstellung ART Innsbruck
-- Gruppenausstellung »Schreibarbeit« in der Galerie ROOT auf Savigny Platz, Berlin
-- Gemeinschaftsausstellung in der Galerie-Packung von Patches in Jena
-- Gruppenausstellung »Kunst im industriellen Raum« in Lübben
-- Solo-Ausstellung und Vortrag als eine Abschlusspräsentation in der Akademie der Malerei Berlin
+- Teilnahme an der Messe ART, Innsbruck
+- Gruppenausstellung »Paper Work« in der Galerie ROOT am Savigny Platz, Berlin
+- Gruppenausstellung in der Galerie »pack of patches«, Jena
+- Gruppenausstellung »Kunst im industriellen Raum«, Lübben
+- Einzelausstellung und Vortrag anlässlich der Abschlusspräsentation in der Akademie für Malerei, Berlin
 
 ### 2012
 
-- Teilnahme an der Ausstellung ART Innsbruck
-- Gruppenausstellung »Favoriten« in der Galerie ROOT Savigny Platz, Berlin
-- Gruppenausstellung »Nächsten Bilder« in der Galerie an der Wurzel Savigny Platz Berlin
-- Ausstellung »Inzwischen« in der Galerie ROOT Savigny Platz, Berlin
+- Teilnahme an der Messe ART, Innsbruck
+- Gruppenausstellung »favourites« in der Galerie ROOT am Savigny Platz, Berlin
+- Gruppenausstellung »Weiterbilder« in der Galerie ROOT am Savigny Platz, Berlin
+- Ausstellung »ZwischenZeit« in der Galerie ROOT am Savigny Platz, Berlin
 
 ### 2011
 
-- Teilnahme an der Ausstellung ART Innsbruck
-- Gemeinschaftsausstellung »mischen: möglich« in der Galerie ROOT Savigny Platz, Berlin
+- Teilnahme an der Messe ART, Innsbruck
+- Gruppenausstellung »mischen: possible« in der Galerie ROOT am Savigny Platz, Berlin
 - Teilnahme an der Messe Berliner Liste
-- Ausstellung »reif widersprüchlich« in der Galerie ROOT auf Savigny Platz, Berlin
-- Einzelausstellung »lebensecht« in der kleinen Galerie Goyatz in Goyatz
+- Ausstellung »Widersprüchliches spruchreif« in der Galerie ROOT am Savigny Platz, Berlin
+- Einzelausstellung »lebenswahr« in der kleinen Galerie, Goyatz
 
 ### 2010
 
-- Teilnahme an der Ausstellung ART Innsbruck
-- Vortrag und Solo-Ausstellung zur Aufnahme in den Master-Studiengang an der Akademie für Malerei Berlin
-- Gruppenausstellung »Covered mit Chancen auf rot« in der Galerie ROOT am Savigny Platz, Berlin
-- Ausstellung »! wirklich fantastisch!« in der Galerie ROOT auf Savigny Platz, Berlin
-- Gruppenausstellung »Klein« in der Galerie ROOT auf Savigny Platz, Berlin
+- Teilnahme an der Messe ART, Innsbruck
+- Einzelausstellung und Vortrag anlässlich der Aufnahme in das Master-Studium in der Akademie für Malerei, Berlin
+- Gruppenausstellung »Bedeckt mit Chancen auf Rot« in der Galerie ROOT am Savigny Platz, Berlin
+- Ausstellung »!real fantastic!« in der Galerie ROOT am Savigny Platz, Berlin
+- Gruppenausstellung »Small« in der Galerie ROOT am Savigny Platz, Berlin
 
 ### 2009
 
-- Teilnahme an der Messe ART Innsbruck
-- Teilnahme an der Ausstellung ART INTERNATIONAL Zürich
+- Teilnahme an der Messe ART, Innsbruck
+- Teilnahme an der Messe ART INTERNATIONAL, Zürich
 
 ### 2008
 
-- Teilnahme an der Ausstellung ART Salzburg
-- »Studenten der Akademie sind« in der Akademie für Malerei Berlin
-- Vortrag und Solo-Ausstellung an die Aufnahme in der Hauptstudie in der Akademie der Malerei Berlin
+- Teilnahme an der Messe ART, Salzburg
+- »Studenten der Akademie stellen aus« in der Akademie für Malerei, Berlin
+- Einzelausstellung und Vortrag anlässlich der Aufnahme in das Hauptstudium der Akademie für Malerei, Berlin

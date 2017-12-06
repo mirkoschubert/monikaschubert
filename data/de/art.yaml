@@ -96,7 +96,7 @@ art:
     height: 30
     fullres: "1531x1600"
   - file: "legend-of-lady-midday.jpg"
-    title: "Zur Sage von der Psezpoldnica"
+    title: "Zur Sage von der Pśezpoldnica"
     description: "Öl auf Leinwand"
     category: "Sagen"
     year: 2016
@@ -144,12 +144,12 @@ art:
     height: 30
     fullres: "1531x1600"
   - file: "legend-of-the-aquarius.jpg"
-    title: "Zur Sage vom Wodny Muz"
+    title: "Zur Sage vom Wodny Mūz"
     description: "Öl auf Leinwand"
     category: "Sagen"
     year: 2016
-    width: 100
-    height: 80
+    width: 80
+    height: 100
     fullres: "1280x1600"
   - file: "andreas.jpg"
     title: "Andrea(s)"
@@ -233,14 +233,14 @@ art:
     fullres: "1600x1200"
   - file: "snow-white-and-rose-red.jpg"
     title: "Schneeweißchen und Rosenrot"
-    description: "Oil on Canvas"
+    description: "Öl auf Leinwand"
     category: "Porträts"
     year: 2017
     width: 100
     height: 70
     fullres: "1600x1116"
   - file: "legend-of-the-aquarius-3.jpg"
-    title: "Zur Sage vom Wodny Muz III"
+    title: "Zur Sage vom Wodny Mūz III"
     description: "Öl auf Leinwand"
     category: "Sagen"
     year: 2017
@@ -268,6 +268,6 @@ art:
     description: "Öl auf Leinwand"
     category: "Porträts"
     year: 2017
-    width: 200
-    height: 120
+    width: 120
+    height: 100
     fullres: "1600x1331"

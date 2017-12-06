@@ -22,6 +22,6 @@ Interessieren Sie sich für die Kunst von Monika Schubert und möchten Ihr Liebl
 Kontaktieren Sie bitte die Künstlerin, um weitere Details und Preise zu erfahren:
 
 **E-Mail:** office@monikaschubert.com<br>
-**Telefon:** + 49 (0) 157 32705072 (nur für deutsche Kunden)
+**Telefon:** + 49 (0) 157 32705072 (nur für deutschsprachige Kunden)
 
 Digitale Kopien ausgewählter Bilder können auch bei [500px.com](https://500px.com/monikaschubert) gekauft werden.

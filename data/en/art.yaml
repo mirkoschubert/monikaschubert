@@ -148,8 +148,8 @@ art:
   description: "Oil on Canvas"
   category: "Legends"
   year: 2016
-  width: 100
-  height: 80
+  width: 80
+  height: 100
   fullres: "1280x1600"
 - file: "andreas.jpg"
   title: "Andrea(s)"
@@ -268,6 +268,6 @@ art:
   description: "Oil on Canvas"
   category: "Portraits"
   year: 2017
-  width: 200
-  height: 120
+  width: 120
+  height: 100
   fullres: "1600x1331"

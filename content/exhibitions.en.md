@@ -22,58 +22,58 @@ This year again, I invite you for the »Open Studio Day« to my garden. Between 
 
 ### 2017
 
-- Solo exhibition »Births of Legends« in the Wendish Museum in Jänschwalde
-- Solo exhibition »Altered Moments« in the District Office Lübben
-- Solo exhibition »Births of Legends« in the Amt Unterspreewald in Schönwalde
+- Solo exhibition »Births of Legends« in the Wendish Museum, Jänschwalde
+- Solo exhibition »Altered Moments« in the District Office, Lübben
+- Solo exhibition »Births of Legends« in the Amt Unterspreewald, Schönwalde
 
 ### 2016
 
-- Solo exhibition »Births of Legends« in the Wendish House (Serbsky Dom) in Cottbus
-- Solo exhibition on the occasion of the »Open Studio Day« in Lübben
+- Solo exhibition »Births of Legends« in the Wendish House (Serbsky Dom), Cottbus
+- Solo exhibition on the occasion of the »Open Studio Day«, Lübben
 
 ### 2015
 
-- Solo exhibition "Art in the Garden" on the occasion of the "Open Studio Day" in Lübben
-- Group exhibition "Art in the Square" in the "Vertical Gallery" in Lübben
+- Solo exhibition "Art in the Garden" on the occasion of the "Open Studio Day", Lübben
+- Group exhibition "Art in the Square" in the "Vertical Gallery" in the District Office, Lübben
 
 ### 2013
 
-- Participation in the exhibition ART Innsbruck
-- Group exhibition »Paper Work« in the gallery ROOT on Savigny Platz Berlin
-- Community exhibition in the gallery pack of patches in Jena
-- Group exhibition »Art in industrial space« in Luebben
-- Solo exhibition and lecture as a final presentation in the Academy of Painting Berlin
+- Participation in the ART fair, Innsbruck
+- Group exhibition »Paper Work« in the gallery ROOT at Savigny Platz, Berlin
+- Group exhibition in the gallery »pack of patches«, Jena
+- Group exhibition »Art in industrial space« in Lübben
+- Solo exhibition and lecture on the occasion of the final presentation in the Academy of Painting, Berlin
 
 ### 2012
 
-- Participation in the exhibition ART Innsbruck
-- Group exhibition »favorites« in the gallery ROOT on Savigny Platz Berlin
-- Group exhibition »Next pictures« in the gallery ROOT on Savigny Platz Berlin
-- Exhibition »Meanwhile« in the gallery ROOT on Savigny Platz Berlin
+- Participation in the ART fair, Innsbruck
+- Group exhibition »favorites« in the gallery ROOT at Savigny Platz, Berlin
+- Group exhibition »Next pictures« in the gallery ROOT at Savigny Platz, Berlin
+- Exhibition »Meantime« in the gallery ROOT at Savigny Platz, Berlin
 
 ### 2011
 
-- Participation in the exhibition ART Innsbruck
-- Community exhibition »Mix: possible" in the gallery ROOT Savigny Platz Berlin
+- Participation in the ART fair, Innsbruck
+- Group exhibition »Mix: possible" in the gallery ROOT Savigny Platz, Berlin
 - Participation in the fair Berliner Liste
-- Exhibition »ripe contradictory« in the gallery ROOT on Savigny Platz Berlin
-- Solo exhibition "true to life" in the Small Gallery Goyatz
+- Exhibition »contradictory ripe for decision« in the gallery ROOT at Savigny Platz, Berlin
+- Solo exhibition "true to life" in the Small Gallery, Goyatz
 
 ### 2010
 
-- Participation in the exhibition ART Innsbruck
-- Lecture and solo exhibition at the inclusion in the Master's program at the Academy for Painting Berlin
-- Group exhibition »Covered with opportunities to red« in the gallery ROOT on Savigny Platz Berlin
-- Exhibition "!real fantastic!" in the gallery ROOT on Savigny Platz Berlin
-- Group exhibition "Small" in the gallery ROOT on Savigny Platz Berlin
+- Participation in the ART fair, Innsbruck
+- Lecture and solo exhibition an the occasion of the Master's program in the Academy for Painting, Berlin
+- Group exhibition »Cloudy with a chance of red« in the gallery ROOT at Savigny Platz, Berlin
+- Exhibition »!real fantastic!« in the gallery ROOT at Savigny Platz, Berlin
+- Group exhibition "Small" in the gallery ROOT at Savigny Platz, Berlin
 
 ### 2009
 
-- Participation at the fair ART Innsbruck
-- Participation in the exhibition ART INTERNATIONAL Zurich
+- Participation at the fair ART, Innsbruck
+- Participation in the ART INTERNATIONAL fair, Zurich
 
 ### 2008
 
-- Participation in the exhibition ART Salzburg
-- »Students of the Academy are present« in the Berlin Academy of Painting
-- Lecture and solo exhibition at the Inclusion in the main study in the Academy of Painting Berlin
+- Participation in the ART fair, Salzburg
+- »Students of the Academy present« in the Academy of Painting, Berlin
+- Solo exhibition and lecture on the occasion of the main study period in the Academy of Painting, Berlin
