@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: "Raleway", arial, sans-serif;
+  font-family: 'Raleway', arial, sans-serif;
   font-weight: normal;
   line-height: 1.6em;
   font-size: 100%;
@@ -48,8 +48,8 @@ body {
 }
 
 .site-title {
-  margin: .5rem 0;
-  font-family: "Alex Brush", Helvetica, sans-serif;
+  margin: 0.5rem 0;
+  font-family: 'Alex Brush', Helvetica, sans-serif;
   font-weight: normal;
   font-size: 36px;
   text-align: center;
@@ -57,21 +57,21 @@ body {
 
 .site-description {
   margin: 0;
-  font-size: .825rem;
+  font-size: 0.825rem;
   text-transform: uppercase;
-  letter-spacing: .5rem;
+  letter-spacing: 0.5rem;
   text-align: center;
 }
 
 .site-header hr {
   width: 50%;
-  margin: .2rem auto;
+  margin: 0.2rem auto;
 }
 
 .site-languages {
   display: block;
   margin: 0;
-  font-size: .825rem;
+  font-size: 0.825rem;
   text-align: center;
   text-transform: uppercase;
 }
@@ -89,16 +89,15 @@ body {
 .site-menu-button {
   display: none;
   text-align: center;
-  margin: .5em 0;
+  margin: 0.5em 0;
 }
-
 
 /**
 * TYPOGRAPHY
 **/
 
 h1 {
-  font-family: "Alex Brush", Helvetica, sans-serif;
+  font-family: 'Alex Brush', Helvetica, sans-serif;
   font-weight: normal;
   font-size: 48px;
 }
@@ -111,7 +110,6 @@ a {
 .site-main a:hover {
   border-bottom: #c0392b 1px dotted;
 }
-
 
 /**
 * NAVIGATION
@@ -134,7 +132,7 @@ a {
 }
 
 .nav-main {
-  font-size: .825rem;
+  font-size: 0.825rem;
   text-align: center;
 }
 
@@ -193,7 +191,6 @@ a {
     transform: rotate(360deg);
   }
 }
-
 
 /**
 * IMAGE GRID
@@ -263,7 +260,7 @@ a {
   height: 100%;
   padding: 3em;
   overflow: hidden;
-  background-color: rgba(255, 255, 255, .6);
+  background-color: rgba(255, 255, 255, 0.6);
   opacity: 0;
   /* White Background Duration */
   transition: opacity 0.2s;
@@ -332,7 +329,7 @@ a {
 
 .grid-item p {
   display: none;
-  font-size: .825rem;
+  font-size: 0.825rem;
   font-weight: 200;
   color: #484848;
 }
@@ -354,7 +351,6 @@ a {
   display: block;
   max-width: 100%;
 }
-
 
 /**
 * PREVIEW
@@ -467,14 +463,14 @@ a {
   font-weight: normal;
   text-transform: uppercase;
   color: #323232;
-  margin: .5rem 0;
+  margin: 0.5rem 0;
 }
 
 .description--preview p {
-  font-size: .825rem;
+  font-size: 0.825rem;
   font-weight: 200;
   color: #afafaf;
-  margin: .5rem 0;
+  margin: 0.5rem 0;
 }
 
 .preview--open .description--preview {
@@ -482,7 +478,6 @@ a {
   transition-delay: 0.2s;
   transform: translate3d(0, 0, 0);
 }
-
 
 /* buttons */
 .action {
@@ -502,7 +497,9 @@ a {
   outline: none;
 }
 
-.action--close, .action--prev, .action--next {
+.action--close,
+.action--prev,
+.action--next {
   position: fixed;
   z-index: 150;
   padding: 1em;
@@ -534,7 +531,6 @@ a {
   transform: scale3d(1, 1, 1);
 }
 
-
 .text-hidden {
   position: absolute;
   display: block;
@@ -559,7 +555,6 @@ a {
   margin-top: 2em;
 }
 
-
 /**
 * PAGES
 **/
@@ -572,7 +567,6 @@ a {
   background-position: center;
   background-size: cover;
 }
-
 
 /**
 * MEDIA QUERIES
@@ -592,12 +586,10 @@ a {
   .grid-item {
     width: 100%;
   }
-  
 }
 
 /* Smartphones */
 @media screen and (max-width: 740px) {
-  
   .site-header {
     position: relative;
     width: 100%;
@@ -717,7 +709,8 @@ a {
 
 /* Smartphones Landscape */
 @media screen and (max-height: 420px) {
-  .grid-filter, .nav-main {
+  .grid-filter,
+  .nav-main {
     display: block;
     float: left;
     width: 50%;
