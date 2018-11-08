@@ -1,4 +1,4 @@
-baseURL = "http://monikaschubert.com/"
+baseURL = "https://monikaschubert.com/"
 
 disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]
 sectionPagesMenu = "main"
